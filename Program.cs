@@ -20,6 +20,7 @@ namespace AtChsarp
 
                 if (op == 1)
                 {
+                    Console.Clear();
                     Console.Write("\nDigite o valor para sacar: ");
                     double valor = double.Parse(Console.ReadLine());
                     conta.Sacar(valor);
@@ -30,6 +31,7 @@ namespace AtChsarp
                 }
                 else if (op == 3)
                 {
+                    Console.Clear();
                     Console.Write("\nDigite o valor do deposito: ");
                     double valor = double.Parse(Console.ReadLine());
                     conta.Depositar(valor);

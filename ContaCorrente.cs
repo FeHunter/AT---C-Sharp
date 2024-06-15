@@ -16,6 +16,7 @@ namespace AtChsarp
             }
             else
             {
+                Console.Clear();
                 Console.WriteLine($"Deposito efetuado com sucesso!\nNovo saldo: ${Saldo}");
                 Console.ReadKey();
             }
@@ -29,13 +30,15 @@ namespace AtChsarp
             }
             else
             {
+                Console.Clear();
                 Console.WriteLine("Saldo insuficiente, faça um deposito e tente novamente.");
                 Console.ReadKey();
             }
         }
 
         public void MostrarSaldo (){
-            Console.WriteLine($"Saldo {Saldo}");
+            Console.Clear();
+            Console.WriteLine($"Saldo: {Saldo}");
             Console.ReadKey();
         }
     }
