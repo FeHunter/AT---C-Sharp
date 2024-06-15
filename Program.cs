@@ -6,7 +6,7 @@ namespace AtChsarp
     {
         static void Main ()
         {
-            ContaCorrente conta1 = new ContaCorrente(0, 300);
+            ContaCorrente conta = new ContaCorrente(0, 300);
 
             bool fim = false;
             int op = 0;
@@ -18,7 +18,26 @@ namespace AtChsarp
                     op = Menu();
                 }while (op < 1 || op > 4);
 
-                // if (op == 1)
+                if (op == 1)
+                {
+                    Console.Write("\nDigite o valor para sacar: ");
+                    double valor = double.Parse(Console.ReadLine());
+                    conta.Sacar(valor);
+                }
+                else if (op == 2)
+                {
+                    conta.MostrarSaldo();
+                }
+                else if (op == 3)
+                {
+                    Console.Write("\nDigite o valor do deposito: ");
+                    double valor = double.Parse(Console.ReadLine());
+                    conta.Depositar(valor);
+                }
+                else if (op == 4)
+                {
+                    fim = true;
+                }
             }
         }
 

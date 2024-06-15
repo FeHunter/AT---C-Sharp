@@ -23,5 +23,9 @@ namespace AtChsarp
                 Saldo -= valor;
             }
         }
+
+        public void MostrarSaldo (){
+            Console.WriteLine($"Saldo {Saldo}");
+        }
     }
 }
