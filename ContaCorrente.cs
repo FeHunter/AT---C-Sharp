@@ -14,6 +14,11 @@ namespace AtChsarp
             {
                 Saldo += valor;
             }
+            else
+            {
+                Console.WriteLine($"Deposito efetuado com sucesso!\nNovo saldo: ${Saldo}");
+                Console.ReadKey();
+            }
         }
 
         public override void Sacar(double valor)
