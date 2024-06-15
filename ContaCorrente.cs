@@ -35,7 +35,7 @@ namespace AtChsarp
 
         public void MostrarSaldo (){
             Console.Clear();
-            Console.WriteLine($"Saldo: {Saldo}");
+            Console.WriteLine($"Saldo: ${Saldo}");
             Console.ReadKey();
         }
     }
