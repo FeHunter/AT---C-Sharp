@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hunte\\Documents\\Programmer\\Estudos\\Faculdade\\Back-End\\C#\\AT\\AT.csproj": {}
+    "C:\\Users\\hunte\\Documents\\Programmer\\Estudos\\Faculdade\\Back-End\\C#\\AT\\Exercicio_1-AT-C-\\AT.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hunte\\Documents\\Programmer\\Estudos\\Faculdade\\Back-End\\C#\\AT\\AT.csproj": {
+    "C:\\Users\\hunte\\Documents\\Programmer\\Estudos\\Faculdade\\Back-End\\C#\\AT\\Exercicio_1-AT-C-\\AT.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hunte\\Documents\\Programmer\\Estudos\\Faculdade\\Back-End\\C#\\AT\\AT.csproj",
+        "projectUniqueName": "C:\\Users\\hunte\\Documents\\Programmer\\Estudos\\Faculdade\\Back-End\\C#\\AT\\Exercicio_1-AT-C-\\AT.csproj",
         "projectName": "AT",
-        "projectPath": "C:\\Users\\hunte\\Documents\\Programmer\\Estudos\\Faculdade\\Back-End\\C#\\AT\\AT.csproj",
+        "projectPath": "C:\\Users\\hunte\\Documents\\Programmer\\Estudos\\Faculdade\\Back-End\\C#\\AT\\Exercicio_1-AT-C-\\AT.csproj",
         "packagesPath": "C:\\Users\\hunte\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hunte\\Documents\\Programmer\\Estudos\\Faculdade\\Back-End\\C#\\AT\\obj\\",
+        "outputPath": "C:\\Users\\hunte\\Documents\\Programmer\\Estudos\\Faculdade\\Back-End\\C#\\AT\\Exercicio_1-AT-C-\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hunte\\AppData\\Roaming\\NuGet\\NuGet.Config"
