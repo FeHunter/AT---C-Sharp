@@ -9,9 +9,16 @@ namespace AtChsarp
             ContaCorrente conta1 = new ContaCorrente(0, 300);
 
             bool fim = false;
+            int op = 0;
 
             while (!fim){
-                int op = Menu();
+                // Leitura das opções e evitar erros
+                do
+                {
+                    op = Menu();
+                }while (op < 1 || op > 4);
+
+                // if (op == 1)
             }
         }
 
