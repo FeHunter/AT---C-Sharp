@@ -10,4 +10,19 @@ abstract class Conta
             _limite = value;
         }
     } }
+
+    public virtual void Depositar (double valor)
+    {
+        if (valor > 0){
+            _saldo += valor;
+        }
+    }
+
+    public virtual void Sacar (double valor)
+    {
+        if (valor <= _saldo)
+        {
+            _saldo -= valor;
+        }
+    }
 }
