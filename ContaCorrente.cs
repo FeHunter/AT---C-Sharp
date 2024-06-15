@@ -13,9 +13,6 @@ namespace AtChsarp
             if (valor > 0)
             {
                 Saldo += valor;
-            }
-            else
-            {
                 Console.Clear();
                 Console.WriteLine($"Deposito efetuado com sucesso!\nNovo saldo: ${Saldo}");
                 Console.ReadKey();
