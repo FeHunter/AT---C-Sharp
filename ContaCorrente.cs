@@ -24,6 +24,9 @@ namespace AtChsarp
             if (valor <= Saldo)
             {
                 Saldo -= valor;
+                Console.Clear();
+                Console.WriteLine($"Saque efetuado!\nNovo saldo: ${Saldo}");
+                Console.ReadKey();
             }
             else
             {
