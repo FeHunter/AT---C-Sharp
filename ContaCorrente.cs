@@ -22,6 +22,11 @@ namespace AtChsarp
             {
                 Saldo -= valor;
             }
+            else
+            {
+                Console.WriteLine("Saldo insuficiente, faça um deposito e tente novamente.");
+                Console.ReadKey();
+            }
         }
 
         public void MostrarSaldo (){
