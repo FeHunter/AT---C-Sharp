@@ -43,6 +43,7 @@ namespace AtChsarp
 
         static public int Menu ()
         {
+            Console.Clear();
             Console.WriteLine("1 - Sacar");
             Console.WriteLine("2 - Apresentar o saldo");
             Console.WriteLine("3 - Depositar");
